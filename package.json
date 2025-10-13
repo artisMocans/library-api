@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon --watch src src/server.js"
+    "dev": "nodemon --watch src src/server.js",
+    "docker:dev": "docker-compose up",
+    "docker:dev:build": "docker-compose up --build",
+    "docker:dev:down": "docker-compose down"
   },
   "keywords": [],
   "author": "",
