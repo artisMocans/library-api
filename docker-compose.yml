@@ -27,7 +27,7 @@ services:
       - library-network
     volumes:
       - ./src:/app/src
-    command: sh -c "npm install && npx nodemon --watch src src/server.js"
+    command: npm run dev
 
 volumes:
   mongodb_data:
