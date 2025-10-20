@@ -8,7 +8,7 @@
     "dev": "nodemon --watch src src/server.js",
     "docker:dev": "docker-compose up",
     "docker:dev:build": "docker-compose up --build",
-    "docker:dev:down": "docker-compose down"
+    "docker:dev:down": "docker-compose down -v"
   },
   "keywords": [],
   "author": "",

@@ -124,28 +124,3 @@ npm run dev
 Successfully connected to MongoDB at localhost:27017
 Server listening on http://localhost:3000
 ```
-
----
-
-## Running E2E Tests
-
-**Start test environment:**
-```bash
-npm run docker:test:up
-```
-
-This starts:
-- MongoDB on port 27018 (in-memory for faster tests)
-- API on port 3001
-
-**Run your E2E tests** (against `http://localhost:3001`)
-
-**View logs:**
-```bash
-npm run docker:test:logs
-```
-
-**Tear down test environment:**
-```bash
-npm run docker:test:down
-```
