@@ -80,22 +80,16 @@ brew services start mongodb-community@7.0
 **Start everything (MongoDB + API) with one command:**
 ```bash
  npm run docker:dev
-# or
-docker-compose up
 ```
 
 **Rebuild and start (after Dockerfile changes):**
 ```bash
  npm run docker:dev:build
-# or
-docker-compose up --build
 ```
 
 **Stop everything:**
 ```bash
  npm run docker:dev:down 
-# or
-docker-compose down
 ```
 
 **Your API will be available at:** `http://localhost:3000`
